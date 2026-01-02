@@ -1,0 +1,46 @@
+2025-12-20 07:02:48 - deepfake_evaluation - INFO - Logging to file: outputs/evaluation\evaluation.log
+2025-12-20 07:02:48 - deepfake_evaluation - INFO - ================================================================================
+2025-12-20 07:02:48 - deepfake_evaluation - INFO - DEEPFAKE DETECTION - MODEL EVALUATION
+2025-12-20 07:02:48 - deepfake_evaluation - INFO - ================================================================================
+2025-12-20 07:02:49 - deepfake_evaluation - INFO - Device: cuda
+2025-12-20 07:02:49 - deepfake_evaluation - INFO - Loading checkpoint: outputs/checkpoints/best_model.pth
+2025-12-20 07:02:49 - deepfake_evaluation - INFO - 
+Initializing model...
+2025-12-20 07:02:50 - deepfake_evaluation - INFO - Model loaded from epoch 18 with validation accuracy 0.9871
+2025-12-20 07:02:50 - deepfake_evaluation - INFO - 
+Test directory: data\Test
+2025-12-20 07:02:50 - deepfake_evaluation - INFO - 
+Loading test dataset...
+2025-12-20 07:02:50 - deepfake_evaluation - INFO - Test samples: 10905
+2025-12-20 07:02:50 - deepfake_evaluation - INFO - Test batches: 228
+2025-12-20 07:04:10 - deepfake_evaluation - INFO - 
+Generating visualizations...
+2025-12-20 07:04:12 - deepfake_evaluation - INFO - 
+Evaluation complete!
+2025-12-20 07:04:12 - deepfake_evaluation - INFO - Results saved to: outputs/evaluation
+2025-12-20 07:04:12 - deepfake_evaluation - INFO -   - Metrics: outputs/evaluation\test_metrics.txt
+2025-12-20 07:04:12 - deepfake_evaluation - INFO -   - Confusion Matrix: outputs/evaluation\confusion_matrix.png
+2025-12-20 07:04:12 - deepfake_evaluation - INFO -   - ROC Curve: outputs/evaluation\roc_curve.png
+2025-12-22 09:36:47 - deepfake_evaluation - INFO - Logging to file: outputs/evaluation\evaluation.log
+2025-12-22 09:36:47 - deepfake_evaluation - INFO - ================================================================================
+2025-12-22 09:36:47 - deepfake_evaluation - INFO - DEEPFAKE DETECTION - MODEL EVALUATION
+2025-12-22 09:36:47 - deepfake_evaluation - INFO - ================================================================================
+2025-12-22 09:36:48 - deepfake_evaluation - INFO - Device: cuda
+2025-12-22 09:36:48 - deepfake_evaluation - INFO - Loading checkpoint: outputs/checkpoints/best_model.pth
+2025-12-22 09:36:48 - deepfake_evaluation - INFO - 
+Initializing model...
+2025-12-22 09:36:48 - deepfake_evaluation - INFO - Model loaded from epoch 18 with validation accuracy 0.9871
+2025-12-22 09:36:48 - deepfake_evaluation - INFO - 
+Test directory: data\Test
+2025-12-22 09:36:48 - deepfake_evaluation - INFO - 
+Loading test dataset...
+2025-12-22 09:36:48 - deepfake_evaluation - INFO - Test samples: 10905
+2025-12-22 09:36:48 - deepfake_evaluation - INFO - Test batches: 228
+2025-12-22 09:37:56 - deepfake_evaluation - INFO - 
+Generating visualizations...
+2025-12-22 09:37:59 - deepfake_evaluation - INFO - 
+Evaluation complete!
+2025-12-22 09:37:59 - deepfake_evaluation - INFO - Results saved to: outputs/evaluation
+2025-12-22 09:37:59 - deepfake_evaluation - INFO -   - Metrics: outputs/evaluation\test_metrics.txt
+2025-12-22 09:37:59 - deepfake_evaluation - INFO -   - Confusion Matrix: outputs/evaluation\confusion_matrix.png
+2025-12-22 09:37:59 - deepfake_evaluation - INFO -   - ROC Curve: outputs/evaluation\roc_curve.png

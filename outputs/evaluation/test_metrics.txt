@@ -1,0 +1,21 @@
+================================================================================
+DEEPFAKE DETECTION - TEST SET METRICS
+================================================================================
+
+Checkpoint: outputs/checkpoints/best_model.pth
+Test samples: 10905
+
+Accuracy:  0.8699
+Precision: 0.8897
+Recall:    0.8699
+F1-Score:  0.8681
+ROC-AUC:   0.9203
+
+              precision    recall  f1-score   support
+
+        Fake       0.80      0.98      0.88      5492
+        Real       0.98      0.75      0.85      5413
+
+    accuracy                           0.87     10905
+   macro avg       0.89      0.87      0.87     10905
+weighted avg       0.89      0.87      0.87     10905
