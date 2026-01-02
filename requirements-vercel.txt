@@ -1,7 +1,0 @@
-# Vercel Deployment Requirements
-# Optimized for serverless deployment (no ML dependencies)
-
-Flask==3.0.0
-flask-cors==4.0.0
-Pillow==10.0.0
-Werkzeug==3.0.0
